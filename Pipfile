@@ -1,12 +1,17 @@
 [[source]]
 name = "pypi"
-url = "https://mirrors.aliyun.com/pypi/simple/"
+url = "http://mirrors.aliyun.com/pypi/simple/"
 verify_ssl = true
 
 [dev-packages]
 
 [packages]
 django = "==2.2.13"
-
+pillow = "*"
+mysqlclient = "*"
+djangorestframework = "*"
+markdown = "*"
+pygments = "*"
+django-filters = "*"
 [requires]
 python_version = "3.7"
